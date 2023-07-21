@@ -12,7 +12,7 @@ export default function Header(){
     return(
         <header>
             <Logo/>
-            <p onClick={menu}>menu</p>
+            <p className='menu' onClick={menu}>menu</p>
             <Navigation/>
             <Button name='Donwload'/>
         </header>

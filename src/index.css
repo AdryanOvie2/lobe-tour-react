@@ -15,7 +15,8 @@
 a {
   font-weight: 500;
   color: var(--color-black);
-  text-decoration: inherit;
+  text-decoration: none;
+  transition: .3s;
 }
 a:hover {
   color: var(--color-green);

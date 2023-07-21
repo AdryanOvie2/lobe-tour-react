@@ -1,13 +1,23 @@
 header{
+    padding: 1rem;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     gap: 1rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    backdrop-filter: saturate(180%) blur(5px); background: hsla(0,0%,100%,.8);
+    margin-bottom: 3rem;
 }   
     .nav{
+        position: absolute;
+        top: 5rem;
+        left: 0;
         display: none;
         width: 100%;
         transition: display .5s;
+        backdrop-filter: saturate(180%) blur(5px); background: hsla(0,0%,100%);
     }
     .nav-link{
         padding: .5rem 0;
@@ -18,3 +28,31 @@ header{
         display: block;
         transition: display .5s;
     }
+    header button{
+        display: none;
+    }
+
+@media (width >= 1000px){
+    header{
+        padding: 1rem 3rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header button{
+        display: block;
+    }
+    header .menu{
+        display: none;
+    }
+    header .nav{
+        position: inherit;
+        backdrop-filter: none;
+        top: 0;
+        display: flex;
+        width: auto;
+        gap: 2.5rem;
+    }
+        .nav-link{
+            border: none;
+        }
+}
