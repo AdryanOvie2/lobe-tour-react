@@ -4,6 +4,9 @@
   --color-black: #333;
   --color-gray:  #767676;
   --color-white: #fff;
+}
+
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -16,6 +19,10 @@ a {
 }
 a:hover {
   color: var(--color-green);
+}
+
+li{
+  list-style: none;
 }
 
 button{
