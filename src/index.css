@@ -4,6 +4,7 @@
   --color-black: #333;
   --color-gray:  #767676;
   --color-white: #fff;
+  color: var(--color-black);
 }
 
 *{

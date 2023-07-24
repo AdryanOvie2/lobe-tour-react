@@ -9,6 +9,7 @@ header{
     left: 0;
     backdrop-filter: saturate(180%) blur(5px); background: hsla(0,0%,100%,.8);
     margin-bottom: 3rem;
+    z-index: 10;
 }   
     .nav{
         position: absolute;
@@ -45,6 +46,7 @@ header{
         display: none;
     }
     header .nav{
+        background: none;
         position: inherit;
         backdrop-filter: none;
         top: 0;

@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/header/header'
+import Hero from './components/hero'
 
 function App() {
   return (
@@ -7,15 +8,7 @@ function App() {
       <Header/>
 
       <main>
-        <h1>Lobe Tour</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id et officiis eligendi non, voluptates consequuntur.</p>
-        <figure>
-          <img src="" alt="imagen principal" />
-        </figure>
-
-        <h2>Train your app with Lobe</h2>
-        <button>Download</button>
-        <hr className="divider" />
+        <Hero/>
       </main>
 
       <footer>
